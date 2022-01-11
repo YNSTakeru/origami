@@ -1,7 +1,6 @@
 <template>
   <div
     class="relative bg-top bg-origami w-screen h-auto bg-no-repeat bg-contain"
-    @click="liftPart"
   >
     <svg
       id="レイヤー_1"
@@ -35,7 +34,7 @@
       />
     </svg>
 
-    <input type="color" @click="changeColor" />
+    <input type="color" @change="changeColor" />
   </div>
 </template>
 
